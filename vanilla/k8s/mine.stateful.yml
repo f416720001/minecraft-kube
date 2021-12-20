@@ -20,7 +20,8 @@ spec:
       restartPolicy: Always
       containers:
       - name: minecraft-server
-        image: balmiusf/mcserver:latest
+        # 1.16.1
+        image: superj80820/minecraft-server 
         env:
         - name: JAVA_MEM_SIZE 
           value: "3g"
